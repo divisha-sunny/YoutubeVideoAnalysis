@@ -41,7 +41,38 @@ Although `country` might seem like a static property, in this dataset it represe
 
 1. `(channel_id, channel_title)`  
 2. `(category_id, category_title)`  
-3. `(video_id, publishedAt, video_title, tags, duration, definition, caption, licensedContent, madeForKids)`  
-4. `(video_id, trending_date, viewCount, likeCount, commentCount, country, channel_id, category_id)`
+3. `(video_id, publishedAt, video_title, tags, duration, definition, caption, licensedContent, madeForKids, channel_id, category_id)`  
+4. `(video_id, trending_date, viewCount, likeCount, commentCount, country)`
+
+---
+
+### 3NF:
+
+To satisfy 3NF, there should be **no transitive dependencies** — i.e., **non-key attributes** should not depend on **other non-key attributes**.
+
+In our case:
+- All non-key attributes directly depend on their respective **primary keys**.
+- `channel_title` depends only on `channel_id`  
+- `category_title` depends only on `category_id`  
+- Other columns like `video_title`, `tags`, `publishedAt`, etc. depend directly on `video_id`.
+- Columns like  `trending_date`, `viewCount`, etc. depend on `(video_id, trending_date)`.
+→ No transitive dependencies exist.
+
+✅ Hence, the schema satisfies **3NF**.
+
+---
+
+### BCNF:
+
+BCNF is a stronger version of 3NF, which requires that **every determinant is a candidate key**.
+
+In our case:
+- All functional dependencies have **candidate keys** as determinants:
+  - `channel_id → channel_title`
+  - `category_id → category_title`
+  - `video_id → publishedAt, video_title, ...`
+  - `(video_id, trending_date) → viewCount, likeCount, ...`
+
+✅ All dependencies meet the condition → Schema is in **BCNF**.
 
 ---

@@ -7,17 +7,16 @@ The final clean dataset has the following columns:
 
 For this project, I’m going with a STAR schema because it’s simpler and way faster for analysis. Since I’ll be loading data regularly and mainly using it for dashboards and quick queries, STAR makes the most sense. It’s easy to work with, scales well, and fits the way I want to slice the data by things like country, category, or channel.
 
-Here’s the STAR schema I’m using:
+**Here’s the STAR schema I’m using:**
 
 dim_channel - (channel_id, channel_title)
-
 dim_category - (category_id, category_title)
-
 dim_country - (country_id, country)
-
-fact_video - (video_id, channel_id, category_id, trending_date, viewCount, likeCount, commentCount, country_id)
-
 dim_video - (video_id, video_title, tags, duration, definition, caption, licensedContent, publishedAt)
+fact_video_trending_metrics - (video_id, channel_id, category_id, trending_date, viewCount, likeCount, commentCount, country_id)
+
+<img width="3304" height="1360" alt="image" src="https://github.com/user-attachments/assets/5d2354d4-6967-438e-97db-d4aec02b8fce" />
+
 
 That said, if I wanted to normalize the data fully, I already thought through how that would look — went through 1NF, 2NF, 3NF, and BCNF just to get a clear picture. So I’m keeping those notes here too, just in case I want to revisit it or share with someone who cares about normalization.
 

@@ -42,6 +42,6 @@ Although `country` might seem like a static property, in this dataset it represe
 1. `(channel_id, channel_title)`  
 2. `(category_id, category_title)`  
 3. `(video_id, publishedAt, video_title, tags, duration, definition, caption, licensedContent, madeForKids)`  
-4. `(video_id, trending_date, viewCount, likeCount, commentCount, country)`
+4. `(video_id, trending_date, viewCount, likeCount, commentCount, country, channel_id, category_id)`
 
 ---

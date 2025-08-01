@@ -5,6 +5,22 @@ The data modeling of the project is as follows:
 The final clean dataset has the following columns:  
 **(video_id, publishedAt, channel_Id, video_title, channel_Title, tags, categoryId, duration, definition, caption, licensedContent, madeForKids, viewCount, likeCount, commentCount, country, category_title, trending_date)**
 
+For this project, I’m going with a STAR schema because it’s simpler and way faster for analysis. Since I’ll be loading data regularly and mainly using it for dashboards and quick queries, STAR makes the most sense. It’s easy to work with, scales well, and fits the way I want to slice the data by things like country, category, or channel.
+
+Here’s the STAR schema I’m using:
+
+dim_channel - (channel_id, channel_title)
+
+dim_category - (category_id, category_title)
+
+dim_country - (country_id, country)
+
+fact_video - (video_id, channel_id, category_id, trending_date, viewCount, likeCount, commentCount, country_id)
+
+dim_video - (video_id, video_title, tags, duration, definition, caption, licensedContent, publishedAt)
+
+That said, if I wanted to normalize the data fully, I already thought through how that would look — went through 1NF, 2NF, 3NF, and BCNF just to get a clear picture. So I’m keeping those notes here too, just in case I want to revisit it or share with someone who cares about normalization.
+
 ---
 
 ### 1NF:
@@ -43,6 +59,12 @@ Although `country` might seem like a static property, in this dataset it represe
 2. `(category_id, category_title)`  
 3. `(video_id, publishedAt, video_title, tags, duration, definition, caption, licensedContent, madeForKids, channel_id, category_id)`  
 4. `(video_id, trending_date, viewCount, likeCount, commentCount, country)`
+
+dim_channel - (channel_id, channel_title)
+dim_category - (category_id, category_title)
+dim_country - (country_id, country)
+fact_video - (video_id, channel_id, category_id, trending_date, viewCount, likeCount, commentCount, country_id)
+dim_video - (video_id, video_title, tags, duration, definition, caption, licensedContent, publishedAt)
 
 ---
 

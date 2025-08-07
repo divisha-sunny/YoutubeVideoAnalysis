@@ -1,99 +1,75 @@
-# YoutubeVideoAnalysis
+# 📊 YouTube Trending Video Analysis
 
-The data modeling of the project is as follows:
+A project where I analyze YouTube’s trending videos using a fully cloud-based data pipeline — from API to interactive dashboarding.
 
-The final clean dataset has the following columns:  
-**(video_id, publishedAt, channel_Id, video_title, channel_Title, tags, categoryId, duration, definition, caption, licensedContent, madeForKids, viewCount, likeCount, commentCount, country, category_title, trending_date)**
-
-For this project, I’m going with a STAR schema because it’s simpler and way faster for analysis. Since I’ll be loading data regularly and mainly using it for dashboards and quick queries, STAR makes the most sense. It’s easy to work with, scales well, and fits the way I want to slice the data by things like country, category, or channel.
-
-**Here’s the STAR schema I’m using:**
-
-dim_channel - (channel_id, channel_title)
-dim_category - (category_id, category_title)
-dim_country - (country_id, country)
-dim_video - (video_id, video_title, tags, duration, definition, caption, licensedContent, publishedAt)
-fact_video_trending_metrics - (video_id, channel_id, category_id, trending_date, viewCount, likeCount, commentCount, country_id)
-
-<img width="3304" height="1360" alt="image" src="https://github.com/user-attachments/assets/5d2354d4-6967-438e-97db-d4aec02b8fce" />
-
-
-That said, if I wanted to normalize the data fully, I already thought through how that would look — went through 1NF, 2NF, 3NF, and BCNF just to get a clear picture. So I’m keeping those notes here too, just in case I want to revisit it or share with someone who cares about normalization.
+This project is part of my **Weekly Project Streak**, where I build or improve one project every week until I land a job in data.
 
 ---
 
-### 1NF:
+## Project Goal
 
-In our case:
-- Each row has **atomic values**.
-- Each row represents a **single entity**.
-- Talking about the **"tags"** column, I am treating it as **one whole entity**, not splitting it by commas. This is because it's only used for **text analysis** and a **visualization (e.g., word cloud)** on the dashboard.  
-→ Hence, the table satisfies **1NF**.
+The main goal of the project is to create a pipeline and dashboard that:
 
----
-
-### 2NF:
-
-To satisfy 2NF, we need to **remove partial dependencies**, meaning that **no non-key column should depend on part of a composite key**.
-
-In our case:
-- The composite key is **(video_id, trending_date)**.
-- The following attributes depend **only on `video_id`** and **not on `trending_date`**, so they are moved into separate tables:
-
-  - `channel_id`, `channel_title` → depend only on `video_id`.
-  - `category_id`, `category_title` → depend only on `video_id`.
-  - `publishedAt`, `video_title`, `tags`, `duration`, `definition`, `caption`, `licensedContent`, `madeForKids` → all depend on `video_id`.
-
-- The remaining table with `video_id` and `trending_date` contains attributes that are specific to the **video’s status on a particular trending date**:
-  - `viewCount`, `likeCount`, `commentCount`, and `country`.
-
-👉 **Note on `country`**:  
-Although `country` might seem like a static property, in this dataset it represents the **region where the video was trending** on that specific date. Therefore, it depends on the **composite key (video_id, trending_date)** and rightfully stays in this table.
+- Collects trending video data from the YouTube API  
+- Processes and stores it using cloud services  
+- Visualizes the data through an interactive dashboard  
+- (Planned) Allows users to interact with the data via an LLM-powered chatbot  
 
 ---
 
-### So after 2NF, we have the following tables:
+## Work Done So Far
 
-1. `(channel_id, channel_title)`  
-2. `(category_id, category_title)`  
-3. `(video_id, publishedAt, video_title, tags, duration, definition, caption, licensedContent, madeForKids, channel_id, category_id)`  
-4. `(video_id, trending_date, viewCount, likeCount, commentCount, country)`
+### Data Collection – YouTube Data API
 
-dim_channel - (channel_id, channel_title)
-dim_category - (category_id, category_title)
-dim_country - (country_id, country)
-fact_video - (video_id, channel_id, category_id, trending_date, viewCount, likeCount, commentCount, country_id)
-dim_video - (video_id, video_title, tags, duration, definition, caption, licensedContent, publishedAt)
+For the first checkpoint of this project, I focused on setting up the full flow — from pulling trending video data to building a working dashboard.
 
----
+- Set up access to the **YouTube Data API v3**
+- Wrote a Python script to fetch trending videos using the [`videos.list`](https://developers.google.com/youtube/v3/docs/videos/list) endpoint  
+  - Used `chart=mostPopular` to get top trending videos by region
+  - Extracted key fields:
+    - `snippet` → title, description, category ID, publish date  
+    - `statistics` → view count, like count, comment count  
+    - `contentDetails` → video duration, resolution (HD/SD)
 
-### 3NF:
-
-To satisfy 3NF, there should be **no transitive dependencies** — i.e., **non-key attributes** should not depend on **other non-key attributes**.
-
-In our case:
-- All non-key attributes directly depend on their respective **primary keys**.
-- `channel_title` depends only on `channel_id`  
-- `category_title` depends only on `category_id`  
-- Other columns like `video_title`, `tags`, `publishedAt`, etc. depend directly on `video_id`.
-- Columns like  `trending_date`, `viewCount`, etc. depend on `(video_id, trending_date)`.
-→ No transitive dependencies exist.
-
-✅ Hence, the schema satisfies **3NF**.
+- Used the [`videoCategories.list`](https://developers.google.com/youtube/v3/docs/videoCategories/list) endpoint to map category IDs to readable names (e.g. "Music", "Gaming", etc.)
+- Ran everything in a Python script inside **Amazon SageMaker Notebook**
 
 ---
 
-### BCNF:
+### Data Transformation & Storage – AWS
 
-BCNF is a stronger version of 3NF, which requires that **every determinant is a candidate key**.
-
-In our case:
-- All functional dependencies have **candidate keys** as determinants:
-  - `channel_id → channel_title`
-  - `category_id → category_title`
-  - `video_id → publishedAt, video_title, ...`
-  - `(video_id, trending_date) → viewCount, likeCount, ...`
-
-✅ All dependencies meet the condition → Schema is in **BCNF**.
+- Cleaned and transformed the raw JSON response from the API into a structured tabular format using **Pandas**
+- Standardized column names, parsed timestamps, handled missing fields
+- Uploaded the transformed datasets as `.parquet` files to an **AWS S3** bucket
 
 ---
+
+### Data Modeling – Google BigQuery
+
+- Connected **AWS S3 to Google BigQuery** manually using [BigQuery’s S3 Transfer guide](https://cloud.google.com/bigquery/docs/s3-transfer)  
+- Loaded the `.parquet` files into BigQuery tables
+- Designed the schema to match the data structure pulled from the API
+
+I went with a **STAR schema** for this project because it’s simple, fast, and works well for dashboarding. I’ll be loading data regularly and analyzing it by dimensions like country, category, and channel — so STAR makes exploration much easier.
+
+**Schema Overview:**
+
+![Star Schema](https://github.com/user-attachments/assets/5d2354d4-6967-438e-97db-d4aec02b8fce)
+
+I initially planned to use **AWS Redshift + QuickSight**, but due to free-tier limits, I switched to **BigQuery + Looker Studio**, which gave me similar functionality and more flexibility within the free tier.
+
+---
+
+### Dashboarding – Looker Studio
+
+Finally, for the dashboard, I used **Looker Studio** and built a basic summary page for now. The dashboard includes:
+
+- Top trending videos by views, likes, and comments  
+- Total engagement metrics  
+- Category-wise and country-wise breakdowns
+
+The dashboard currently uses data from a single day — but it sets the foundation for future trend analysis, drill-down features, and chatbot interaction.
+
+The dashboard looks like below:
+
+<img width="824" height="502" alt="image" src="https://github.com/user-attachments/assets/8e8657ec-b0bb-4274-8c30-336afb72aaa6" />

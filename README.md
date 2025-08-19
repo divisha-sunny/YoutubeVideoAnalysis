@@ -36,27 +36,15 @@ For the first checkpoint of this project, I focused on setting up the full flow 
 
 ---
 
-### Data Transformation & Storage – AWS
+### Data Pipelining
 
-- Cleaned and transformed the raw JSON response from the API into a structured tabular format using **Pandas**
+- Automated the entire pipeline: **Airflow** (for orchestration) → **YouTube API**(Data Source) → **AWS S3**(Raw Data Storage) → **BigQuery**(Data Warehouse) → **dbt** (for data transformations on BigQuery) → **Looker**(Dashboarding).
+
+The dbt data transformations are as follows:
+
+- Cleaned and transformed the raw JSON response from the API into a structured tabular format using SQL.
 - Standardized column names, parsed timestamps, handled missing fields
 - Uploaded the transformed datasets as `.parquet` files to an **AWS S3** bucket
-
----
-
-### Data Modeling – Google BigQuery
-
-- Connected **AWS S3 to Google BigQuery** manually using [BigQuery’s S3 Transfer guide](https://cloud.google.com/bigquery/docs/s3-transfer)  
-- Loaded the `.parquet` files into BigQuery tables
-- Designed the schema to match the data structure pulled from the API
-
-I went with a **STAR schema** for this project because it’s simple, fast, and works well for dashboarding. I’ll be loading data regularly and analyzing it by dimensions like country, category, and channel — so STAR makes exploration much easier.
-
-**Schema Overview:**
-
-![Star Schema](https://github.com/user-attachments/assets/5d2354d4-6967-438e-97db-d4aec02b8fce)
-
-I initially planned to use **AWS Redshift + QuickSight**, but due to free-tier limits, I switched to **BigQuery + Looker Studio**, which gave me similar functionality and more flexibility within the free tier.
 
 ---
 
@@ -72,4 +60,5 @@ The dashboard currently uses data from a single day — but it sets the foundati
 
 The dashboard looks like below:
 
-<img width="824" height="502" alt="image" src="https://github.com/user-attachments/assets/8e8657ec-b0bb-4274-8c30-336afb72aaa6" />
+<img width="828" height="589" alt="image" src="https://github.com/user-attachments/assets/bc0895a5-4066-41ee-9719-61fa45eed4a3" />
+

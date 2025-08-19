@@ -1,0 +1,1542 @@
+region_code,region_name,category_id,category_title
+AE,United Arab Emirates,1,Film & Animation
+AE,United Arab Emirates,2,Autos & Vehicles
+AE,United Arab Emirates,10,Music
+AE,United Arab Emirates,15,Pets & Animals
+AE,United Arab Emirates,17,Sports
+AE,United Arab Emirates,19,Travel & Events
+AE,United Arab Emirates,20,Gaming
+AE,United Arab Emirates,22,People & Blogs
+AE,United Arab Emirates,23,Comedy
+AE,United Arab Emirates,24,Entertainment
+AE,United Arab Emirates,25,News & Politics
+AE,United Arab Emirates,26,Howto & Style
+AE,United Arab Emirates,27,Education
+AE,United Arab Emirates,28,Science & Technology
+BH,Bahrain,1,Film & Animation
+BH,Bahrain,2,Autos & Vehicles
+BH,Bahrain,10,Music
+BH,Bahrain,15,Pets & Animals
+BH,Bahrain,17,Sports
+BH,Bahrain,19,Travel & Events
+BH,Bahrain,20,Gaming
+BH,Bahrain,22,People & Blogs
+BH,Bahrain,23,Comedy
+BH,Bahrain,24,Entertainment
+BH,Bahrain,25,News & Politics
+BH,Bahrain,26,Howto & Style
+BH,Bahrain,27,Education
+BH,Bahrain,28,Science & Technology
+DZ,Algeria,1,Film & Animation
+DZ,Algeria,2,Autos & Vehicles
+DZ,Algeria,10,Music
+DZ,Algeria,15,Pets & Animals
+DZ,Algeria,17,Sports
+DZ,Algeria,19,Travel & Events
+DZ,Algeria,20,Gaming
+DZ,Algeria,22,People & Blogs
+DZ,Algeria,23,Comedy
+DZ,Algeria,24,Entertainment
+DZ,Algeria,25,News & Politics
+DZ,Algeria,26,Howto & Style
+DZ,Algeria,27,Education
+DZ,Algeria,28,Science & Technology
+EG,Egypt,1,Film & Animation
+EG,Egypt,2,Autos & Vehicles
+EG,Egypt,10,Music
+EG,Egypt,15,Pets & Animals
+EG,Egypt,17,Sports
+EG,Egypt,19,Travel & Events
+EG,Egypt,20,Gaming
+EG,Egypt,22,People & Blogs
+EG,Egypt,23,Comedy
+EG,Egypt,24,Entertainment
+EG,Egypt,25,News & Politics
+EG,Egypt,26,Howto & Style
+EG,Egypt,27,Education
+EG,Egypt,28,Science & Technology
+IQ,Iraq,1,Film & Animation
+IQ,Iraq,2,Autos & Vehicles
+IQ,Iraq,10,Music
+IQ,Iraq,15,Pets & Animals
+IQ,Iraq,17,Sports
+IQ,Iraq,19,Travel & Events
+IQ,Iraq,20,Gaming
+IQ,Iraq,22,People & Blogs
+IQ,Iraq,23,Comedy
+IQ,Iraq,24,Entertainment
+IQ,Iraq,25,News & Politics
+IQ,Iraq,26,Howto & Style
+IQ,Iraq,27,Education
+IQ,Iraq,28,Science & Technology
+JO,Jordan,1,Film & Animation
+JO,Jordan,2,Autos & Vehicles
+JO,Jordan,10,Music
+JO,Jordan,15,Pets & Animals
+JO,Jordan,17,Sports
+JO,Jordan,19,Travel & Events
+JO,Jordan,20,Gaming
+JO,Jordan,22,People & Blogs
+JO,Jordan,23,Comedy
+JO,Jordan,24,Entertainment
+JO,Jordan,25,News & Politics
+JO,Jordan,26,Howto & Style
+JO,Jordan,27,Education
+JO,Jordan,28,Science & Technology
+KW,Kuwait,1,Film & Animation
+KW,Kuwait,2,Autos & Vehicles
+KW,Kuwait,10,Music
+KW,Kuwait,15,Pets & Animals
+KW,Kuwait,17,Sports
+KW,Kuwait,19,Travel & Events
+KW,Kuwait,20,Gaming
+KW,Kuwait,22,People & Blogs
+KW,Kuwait,23,Comedy
+KW,Kuwait,24,Entertainment
+KW,Kuwait,25,News & Politics
+KW,Kuwait,26,Howto & Style
+KW,Kuwait,27,Education
+KW,Kuwait,28,Science & Technology
+LB,Lebanon,1,Film & Animation
+LB,Lebanon,2,Autos & Vehicles
+LB,Lebanon,10,Music
+LB,Lebanon,15,Pets & Animals
+LB,Lebanon,17,Sports
+LB,Lebanon,19,Travel & Events
+LB,Lebanon,20,Gaming
+LB,Lebanon,22,People & Blogs
+LB,Lebanon,23,Comedy
+LB,Lebanon,24,Entertainment
+LB,Lebanon,25,News & Politics
+LB,Lebanon,26,Howto & Style
+LB,Lebanon,27,Education
+LB,Lebanon,28,Science & Technology
+LY,Libya,1,Film & Animation
+LY,Libya,2,Autos & Vehicles
+LY,Libya,10,Music
+LY,Libya,15,Pets & Animals
+LY,Libya,17,Sports
+LY,Libya,19,Travel & Events
+LY,Libya,20,Gaming
+LY,Libya,22,People & Blogs
+LY,Libya,23,Comedy
+LY,Libya,24,Entertainment
+LY,Libya,25,News & Politics
+LY,Libya,26,Howto & Style
+LY,Libya,27,Education
+LY,Libya,28,Science & Technology
+MA,Morocco,1,Film & Animation
+MA,Morocco,2,Autos & Vehicles
+MA,Morocco,10,Music
+MA,Morocco,15,Pets & Animals
+MA,Morocco,17,Sports
+MA,Morocco,19,Travel & Events
+MA,Morocco,20,Gaming
+MA,Morocco,22,People & Blogs
+MA,Morocco,23,Comedy
+MA,Morocco,24,Entertainment
+MA,Morocco,25,News & Politics
+MA,Morocco,26,Howto & Style
+MA,Morocco,27,Education
+MA,Morocco,28,Science & Technology
+OM,Oman,1,Film & Animation
+OM,Oman,2,Autos & Vehicles
+OM,Oman,10,Music
+OM,Oman,15,Pets & Animals
+OM,Oman,17,Sports
+OM,Oman,19,Travel & Events
+OM,Oman,20,Gaming
+OM,Oman,22,People & Blogs
+OM,Oman,23,Comedy
+OM,Oman,24,Entertainment
+OM,Oman,25,News & Politics
+OM,Oman,26,Howto & Style
+OM,Oman,27,Education
+OM,Oman,28,Science & Technology
+QA,Qatar,1,Film & Animation
+QA,Qatar,2,Autos & Vehicles
+QA,Qatar,10,Music
+QA,Qatar,15,Pets & Animals
+QA,Qatar,17,Sports
+QA,Qatar,19,Travel & Events
+QA,Qatar,20,Gaming
+QA,Qatar,22,People & Blogs
+QA,Qatar,23,Comedy
+QA,Qatar,24,Entertainment
+QA,Qatar,25,News & Politics
+QA,Qatar,26,Howto & Style
+QA,Qatar,27,Education
+QA,Qatar,28,Science & Technology
+SA,Saudi Arabia,1,Film & Animation
+SA,Saudi Arabia,2,Autos & Vehicles
+SA,Saudi Arabia,10,Music
+SA,Saudi Arabia,15,Pets & Animals
+SA,Saudi Arabia,17,Sports
+SA,Saudi Arabia,19,Travel & Events
+SA,Saudi Arabia,20,Gaming
+SA,Saudi Arabia,22,People & Blogs
+SA,Saudi Arabia,23,Comedy
+SA,Saudi Arabia,24,Entertainment
+SA,Saudi Arabia,25,News & Politics
+SA,Saudi Arabia,26,Howto & Style
+SA,Saudi Arabia,27,Education
+SA,Saudi Arabia,28,Science & Technology
+TN,Tunisia,1,Film & Animation
+TN,Tunisia,2,Autos & Vehicles
+TN,Tunisia,10,Music
+TN,Tunisia,15,Pets & Animals
+TN,Tunisia,17,Sports
+TN,Tunisia,19,Travel & Events
+TN,Tunisia,20,Gaming
+TN,Tunisia,22,People & Blogs
+TN,Tunisia,23,Comedy
+TN,Tunisia,24,Entertainment
+TN,Tunisia,25,News & Politics
+TN,Tunisia,26,Howto & Style
+TN,Tunisia,27,Education
+TN,Tunisia,28,Science & Technology
+YE,Yemen,1,Film & Animation
+YE,Yemen,2,Autos & Vehicles
+YE,Yemen,10,Music
+YE,Yemen,15,Pets & Animals
+YE,Yemen,17,Sports
+YE,Yemen,19,Travel & Events
+YE,Yemen,20,Gaming
+YE,Yemen,22,People & Blogs
+YE,Yemen,23,Comedy
+YE,Yemen,24,Entertainment
+YE,Yemen,25,News & Politics
+YE,Yemen,26,Howto & Style
+YE,Yemen,27,Education
+YE,Yemen,28,Science & Technology
+AZ,Azerbaijan,1,Film & Animation
+AZ,Azerbaijan,2,Autos & Vehicles
+AZ,Azerbaijan,10,Music
+AZ,Azerbaijan,15,Pets & Animals
+AZ,Azerbaijan,17,Sports
+AZ,Azerbaijan,19,Travel & Events
+AZ,Azerbaijan,20,Gaming
+AZ,Azerbaijan,22,People & Blogs
+AZ,Azerbaijan,23,Comedy
+AZ,Azerbaijan,24,Entertainment
+AZ,Azerbaijan,25,News & Politics
+AZ,Azerbaijan,26,Howto & Style
+AZ,Azerbaijan,27,Education
+AZ,Azerbaijan,28,Science & Technology
+BY,Belarus,1,Film & Animation
+BY,Belarus,2,Autos & Vehicles
+BY,Belarus,10,Music
+BY,Belarus,15,Pets & Animals
+BY,Belarus,17,Sports
+BY,Belarus,19,Travel & Events
+BY,Belarus,20,Gaming
+BY,Belarus,22,People & Blogs
+BY,Belarus,23,Comedy
+BY,Belarus,24,Entertainment
+BY,Belarus,25,News & Politics
+BY,Belarus,26,Howto & Style
+BY,Belarus,27,Education
+BY,Belarus,28,Science & Technology
+BG,Bulgaria,1,Film & Animation
+BG,Bulgaria,2,Autos & Vehicles
+BG,Bulgaria,10,Music
+BG,Bulgaria,15,Pets & Animals
+BG,Bulgaria,17,Sports
+BG,Bulgaria,19,Travel & Events
+BG,Bulgaria,20,Gaming
+BG,Bulgaria,22,People & Blogs
+BG,Bulgaria,23,Comedy
+BG,Bulgaria,24,Entertainment
+BG,Bulgaria,25,News & Politics
+BG,Bulgaria,26,Howto & Style
+BG,Bulgaria,27,Education
+BG,Bulgaria,28,Science & Technology
+BD,Bangladesh,1,Film & Animation
+BD,Bangladesh,2,Autos & Vehicles
+BD,Bangladesh,10,Music
+BD,Bangladesh,15,Pets & Animals
+BD,Bangladesh,17,Sports
+BD,Bangladesh,19,Travel & Events
+BD,Bangladesh,20,Gaming
+BD,Bangladesh,22,People & Blogs
+BD,Bangladesh,23,Comedy
+BD,Bangladesh,24,Entertainment
+BD,Bangladesh,25,News & Politics
+BD,Bangladesh,26,Howto & Style
+BD,Bangladesh,27,Education
+BD,Bangladesh,28,Science & Technology
+BA,Bosnia and Herzegovina,1,Film & Animation
+BA,Bosnia and Herzegovina,2,Autos & Vehicles
+BA,Bosnia and Herzegovina,10,Music
+BA,Bosnia and Herzegovina,15,Pets & Animals
+BA,Bosnia and Herzegovina,17,Sports
+BA,Bosnia and Herzegovina,19,Travel & Events
+BA,Bosnia and Herzegovina,20,Gaming
+BA,Bosnia and Herzegovina,22,People & Blogs
+BA,Bosnia and Herzegovina,23,Comedy
+BA,Bosnia and Herzegovina,24,Entertainment
+BA,Bosnia and Herzegovina,25,News & Politics
+BA,Bosnia and Herzegovina,26,Howto & Style
+BA,Bosnia and Herzegovina,27,Education
+BA,Bosnia and Herzegovina,28,Science & Technology
+CZ,Czechia,1,Film & Animation
+CZ,Czechia,2,Autos & Vehicles
+CZ,Czechia,10,Music
+CZ,Czechia,15,Pets & Animals
+CZ,Czechia,17,Sports
+CZ,Czechia,19,Travel & Events
+CZ,Czechia,20,Gaming
+CZ,Czechia,22,People & Blogs
+CZ,Czechia,23,Comedy
+CZ,Czechia,24,Entertainment
+CZ,Czechia,25,News & Politics
+CZ,Czechia,26,Howto & Style
+CZ,Czechia,27,Education
+CZ,Czechia,28,Science & Technology
+DK,Denmark,1,Film & Animation
+DK,Denmark,2,Autos & Vehicles
+DK,Denmark,10,Music
+DK,Denmark,15,Pets & Animals
+DK,Denmark,17,Sports
+DK,Denmark,19,Travel & Events
+DK,Denmark,20,Gaming
+DK,Denmark,22,People & Blogs
+DK,Denmark,23,Comedy
+DK,Denmark,24,Entertainment
+DK,Denmark,25,News & Politics
+DK,Denmark,26,Howto & Style
+DK,Denmark,27,Education
+DK,Denmark,28,Science & Technology
+AT,Austria,1,Film & Animation
+AT,Austria,2,Autos & Vehicles
+AT,Austria,10,Music
+AT,Austria,15,Pets & Animals
+AT,Austria,17,Sports
+AT,Austria,19,Travel & Events
+AT,Austria,20,Gaming
+AT,Austria,22,People & Blogs
+AT,Austria,23,Comedy
+AT,Austria,24,Entertainment
+AT,Austria,25,News & Politics
+AT,Austria,26,Howto & Style
+AT,Austria,27,Education
+AT,Austria,28,Science & Technology
+CH,Switzerland,1,Film & Animation
+CH,Switzerland,2,Autos & Vehicles
+CH,Switzerland,10,Music
+CH,Switzerland,15,Pets & Animals
+CH,Switzerland,17,Sports
+CH,Switzerland,19,Travel & Events
+CH,Switzerland,20,Gaming
+CH,Switzerland,22,People & Blogs
+CH,Switzerland,23,Comedy
+CH,Switzerland,24,Entertainment
+CH,Switzerland,25,News & Politics
+CH,Switzerland,26,Howto & Style
+CH,Switzerland,27,Education
+CH,Switzerland,28,Science & Technology
+DE,Germany,1,Film & Animation
+DE,Germany,2,Autos & Vehicles
+DE,Germany,10,Music
+DE,Germany,15,Pets & Animals
+DE,Germany,17,Sports
+DE,Germany,19,Travel & Events
+DE,Germany,20,Gaming
+DE,Germany,22,People & Blogs
+DE,Germany,23,Comedy
+DE,Germany,24,Entertainment
+DE,Germany,25,News & Politics
+DE,Germany,26,Howto & Style
+DE,Germany,27,Education
+DE,Germany,28,Science & Technology
+GR,Greece,1,Film & Animation
+GR,Greece,2,Autos & Vehicles
+GR,Greece,10,Music
+GR,Greece,15,Pets & Animals
+GR,Greece,17,Sports
+GR,Greece,19,Travel & Events
+GR,Greece,20,Gaming
+GR,Greece,22,People & Blogs
+GR,Greece,23,Comedy
+GR,Greece,24,Entertainment
+GR,Greece,25,News & Politics
+GR,Greece,26,Howto & Style
+GR,Greece,27,Education
+GR,Greece,28,Science & Technology
+AU,Australia,1,Film & Animation
+AU,Australia,2,Autos & Vehicles
+AU,Australia,10,Music
+AU,Australia,15,Pets & Animals
+AU,Australia,17,Sports
+AU,Australia,19,Travel & Events
+AU,Australia,20,Gaming
+AU,Australia,22,People & Blogs
+AU,Australia,23,Comedy
+AU,Australia,24,Entertainment
+AU,Australia,25,News & Politics
+AU,Australia,26,Howto & Style
+AU,Australia,27,Education
+AU,Australia,28,Science & Technology
+BE,Belgium,1,Film & Animation
+BE,Belgium,2,Autos & Vehicles
+BE,Belgium,10,Music
+BE,Belgium,15,Pets & Animals
+BE,Belgium,17,Sports
+BE,Belgium,19,Travel & Events
+BE,Belgium,20,Gaming
+BE,Belgium,22,People & Blogs
+BE,Belgium,23,Comedy
+BE,Belgium,24,Entertainment
+BE,Belgium,25,News & Politics
+BE,Belgium,26,Howto & Style
+BE,Belgium,27,Education
+BE,Belgium,28,Science & Technology
+CA,Canada,1,Film & Animation
+CA,Canada,2,Autos & Vehicles
+CA,Canada,10,Music
+CA,Canada,15,Pets & Animals
+CA,Canada,17,Sports
+CA,Canada,19,Travel & Events
+CA,Canada,20,Gaming
+CA,Canada,22,People & Blogs
+CA,Canada,23,Comedy
+CA,Canada,24,Entertainment
+CA,Canada,25,News & Politics
+CA,Canada,26,Howto & Style
+CA,Canada,27,Education
+CA,Canada,28,Science & Technology
+GB,United Kingdom,1,Film & Animation
+GB,United Kingdom,2,Autos & Vehicles
+GB,United Kingdom,10,Music
+GB,United Kingdom,15,Pets & Animals
+GB,United Kingdom,17,Sports
+GB,United Kingdom,19,Travel & Events
+GB,United Kingdom,20,Gaming
+GB,United Kingdom,22,People & Blogs
+GB,United Kingdom,23,Comedy
+GB,United Kingdom,24,Entertainment
+GB,United Kingdom,25,News & Politics
+GB,United Kingdom,26,Howto & Style
+GB,United Kingdom,27,Education
+GB,United Kingdom,28,Science & Technology
+GH,Ghana,1,Film & Animation
+GH,Ghana,2,Autos & Vehicles
+GH,Ghana,10,Music
+GH,Ghana,15,Pets & Animals
+GH,Ghana,17,Sports
+GH,Ghana,19,Travel & Events
+GH,Ghana,20,Gaming
+GH,Ghana,22,People & Blogs
+GH,Ghana,23,Comedy
+GH,Ghana,24,Entertainment
+GH,Ghana,25,News & Politics
+GH,Ghana,26,Howto & Style
+GH,Ghana,27,Education
+GH,Ghana,28,Science & Technology
+IE,Ireland,1,Film & Animation
+IE,Ireland,2,Autos & Vehicles
+IE,Ireland,10,Music
+IE,Ireland,15,Pets & Animals
+IE,Ireland,17,Sports
+IE,Ireland,19,Travel & Events
+IE,Ireland,20,Gaming
+IE,Ireland,22,People & Blogs
+IE,Ireland,23,Comedy
+IE,Ireland,24,Entertainment
+IE,Ireland,25,News & Politics
+IE,Ireland,26,Howto & Style
+IE,Ireland,27,Education
+IE,Ireland,28,Science & Technology
+IL,Israel,1,Film & Animation
+IL,Israel,2,Autos & Vehicles
+IL,Israel,10,Music
+IL,Israel,15,Pets & Animals
+IL,Israel,17,Sports
+IL,Israel,19,Travel & Events
+IL,Israel,20,Gaming
+IL,Israel,22,People & Blogs
+IL,Israel,23,Comedy
+IL,Israel,24,Entertainment
+IL,Israel,25,News & Politics
+IL,Israel,26,Howto & Style
+IL,Israel,27,Education
+IL,Israel,28,Science & Technology
+IN,India,1,Film & Animation
+IN,India,2,Autos & Vehicles
+IN,India,10,Music
+IN,India,15,Pets & Animals
+IN,India,17,Sports
+IN,India,19,Travel & Events
+IN,India,20,Gaming
+IN,India,22,People & Blogs
+IN,India,23,Comedy
+IN,India,24,Entertainment
+IN,India,25,News & Politics
+IN,India,26,Howto & Style
+IN,India,27,Education
+IN,India,28,Science & Technology
+JM,Jamaica,1,Film & Animation
+JM,Jamaica,2,Autos & Vehicles
+JM,Jamaica,10,Music
+JM,Jamaica,15,Pets & Animals
+JM,Jamaica,17,Sports
+JM,Jamaica,19,Travel & Events
+JM,Jamaica,20,Gaming
+JM,Jamaica,22,People & Blogs
+JM,Jamaica,23,Comedy
+JM,Jamaica,24,Entertainment
+JM,Jamaica,25,News & Politics
+JM,Jamaica,26,Howto & Style
+JM,Jamaica,27,Education
+JM,Jamaica,28,Science & Technology
+KE,Kenya,1,Film & Animation
+KE,Kenya,2,Autos & Vehicles
+KE,Kenya,10,Music
+KE,Kenya,15,Pets & Animals
+KE,Kenya,17,Sports
+KE,Kenya,19,Travel & Events
+KE,Kenya,20,Gaming
+KE,Kenya,22,People & Blogs
+KE,Kenya,23,Comedy
+KE,Kenya,24,Entertainment
+KE,Kenya,25,News & Politics
+KE,Kenya,26,Howto & Style
+KE,Kenya,27,Education
+KE,Kenya,28,Science & Technology
+MT,Malta,1,Film & Animation
+MT,Malta,2,Autos & Vehicles
+MT,Malta,10,Music
+MT,Malta,15,Pets & Animals
+MT,Malta,17,Sports
+MT,Malta,19,Travel & Events
+MT,Malta,20,Gaming
+MT,Malta,22,People & Blogs
+MT,Malta,23,Comedy
+MT,Malta,24,Entertainment
+MT,Malta,25,News & Politics
+MT,Malta,26,Howto & Style
+MT,Malta,27,Education
+MT,Malta,28,Science & Technology
+NG,Nigeria,1,Film & Animation
+NG,Nigeria,2,Autos & Vehicles
+NG,Nigeria,10,Music
+NG,Nigeria,15,Pets & Animals
+NG,Nigeria,17,Sports
+NG,Nigeria,19,Travel & Events
+NG,Nigeria,20,Gaming
+NG,Nigeria,22,People & Blogs
+NG,Nigeria,23,Comedy
+NG,Nigeria,24,Entertainment
+NG,Nigeria,25,News & Politics
+NG,Nigeria,26,Howto & Style
+NG,Nigeria,27,Education
+NG,Nigeria,28,Science & Technology
+NZ,New Zealand,1,Film & Animation
+NZ,New Zealand,2,Autos & Vehicles
+NZ,New Zealand,10,Music
+NZ,New Zealand,15,Pets & Animals
+NZ,New Zealand,17,Sports
+NZ,New Zealand,19,Travel & Events
+NZ,New Zealand,20,Gaming
+NZ,New Zealand,22,People & Blogs
+NZ,New Zealand,23,Comedy
+NZ,New Zealand,24,Entertainment
+NZ,New Zealand,25,News & Politics
+NZ,New Zealand,26,Howto & Style
+NZ,New Zealand,27,Education
+NZ,New Zealand,28,Science & Technology
+SG,Singapore,1,Film & Animation
+SG,Singapore,2,Autos & Vehicles
+SG,Singapore,10,Music
+SG,Singapore,15,Pets & Animals
+SG,Singapore,17,Sports
+SG,Singapore,19,Travel & Events
+SG,Singapore,20,Gaming
+SG,Singapore,22,People & Blogs
+SG,Singapore,23,Comedy
+SG,Singapore,24,Entertainment
+SG,Singapore,25,News & Politics
+SG,Singapore,26,Howto & Style
+SG,Singapore,27,Education
+SG,Singapore,28,Science & Technology
+UG,Uganda,1,Film & Animation
+UG,Uganda,2,Autos & Vehicles
+UG,Uganda,10,Music
+UG,Uganda,15,Pets & Animals
+UG,Uganda,17,Sports
+UG,Uganda,19,Travel & Events
+UG,Uganda,20,Gaming
+UG,Uganda,22,People & Blogs
+UG,Uganda,23,Comedy
+UG,Uganda,24,Entertainment
+UG,Uganda,25,News & Politics
+UG,Uganda,26,Howto & Style
+UG,Uganda,27,Education
+UG,Uganda,28,Science & Technology
+US,United States,1,Film & Animation
+US,United States,2,Autos & Vehicles
+US,United States,10,Music
+US,United States,15,Pets & Animals
+US,United States,17,Sports
+US,United States,19,Travel & Events
+US,United States,20,Gaming
+US,United States,22,People & Blogs
+US,United States,23,Comedy
+US,United States,24,Entertainment
+US,United States,25,News & Politics
+US,United States,26,Howto & Style
+US,United States,27,Education
+US,United States,28,Science & Technology
+US,United States,29,Nonprofits & Activism
+ZA,South Africa,1,Film & Animation
+ZA,South Africa,2,Autos & Vehicles
+ZA,South Africa,10,Music
+ZA,South Africa,15,Pets & Animals
+ZA,South Africa,17,Sports
+ZA,South Africa,19,Travel & Events
+ZA,South Africa,20,Gaming
+ZA,South Africa,22,People & Blogs
+ZA,South Africa,23,Comedy
+ZA,South Africa,24,Entertainment
+ZA,South Africa,25,News & Politics
+ZA,South Africa,26,Howto & Style
+ZA,South Africa,27,Education
+ZA,South Africa,28,Science & Technology
+ZW,Zimbabwe,1,Film & Animation
+ZW,Zimbabwe,2,Autos & Vehicles
+ZW,Zimbabwe,10,Music
+ZW,Zimbabwe,15,Pets & Animals
+ZW,Zimbabwe,17,Sports
+ZW,Zimbabwe,19,Travel & Events
+ZW,Zimbabwe,20,Gaming
+ZW,Zimbabwe,22,People & Blogs
+ZW,Zimbabwe,23,Comedy
+ZW,Zimbabwe,24,Entertainment
+ZW,Zimbabwe,25,News & Politics
+ZW,Zimbabwe,26,Howto & Style
+ZW,Zimbabwe,27,Education
+ZW,Zimbabwe,28,Science & Technology
+AR,Argentina,1,Film & Animation
+AR,Argentina,2,Autos & Vehicles
+AR,Argentina,10,Music
+AR,Argentina,15,Pets & Animals
+AR,Argentina,17,Sports
+AR,Argentina,19,Travel & Events
+AR,Argentina,20,Gaming
+AR,Argentina,22,People & Blogs
+AR,Argentina,23,Comedy
+AR,Argentina,24,Entertainment
+AR,Argentina,25,News & Politics
+AR,Argentina,26,Howto & Style
+AR,Argentina,27,Education
+AR,Argentina,28,Science & Technology
+BO,Bolivia,1,Film & Animation
+BO,Bolivia,2,Autos & Vehicles
+BO,Bolivia,10,Music
+BO,Bolivia,15,Pets & Animals
+BO,Bolivia,17,Sports
+BO,Bolivia,19,Travel & Events
+BO,Bolivia,20,Gaming
+BO,Bolivia,22,People & Blogs
+BO,Bolivia,23,Comedy
+BO,Bolivia,24,Entertainment
+BO,Bolivia,25,News & Politics
+BO,Bolivia,26,Howto & Style
+BO,Bolivia,27,Education
+BO,Bolivia,28,Science & Technology
+CL,Chile,1,Film & Animation
+CL,Chile,2,Autos & Vehicles
+CL,Chile,10,Music
+CL,Chile,15,Pets & Animals
+CL,Chile,17,Sports
+CL,Chile,19,Travel & Events
+CL,Chile,20,Gaming
+CL,Chile,22,People & Blogs
+CL,Chile,23,Comedy
+CL,Chile,24,Entertainment
+CL,Chile,25,News & Politics
+CL,Chile,26,Howto & Style
+CL,Chile,27,Education
+CL,Chile,28,Science & Technology
+CO,Colombia,1,Film & Animation
+CO,Colombia,2,Autos & Vehicles
+CO,Colombia,10,Music
+CO,Colombia,15,Pets & Animals
+CO,Colombia,17,Sports
+CO,Colombia,19,Travel & Events
+CO,Colombia,20,Gaming
+CO,Colombia,22,People & Blogs
+CO,Colombia,23,Comedy
+CO,Colombia,24,Entertainment
+CO,Colombia,25,News & Politics
+CO,Colombia,26,Howto & Style
+CO,Colombia,27,Education
+CO,Colombia,28,Science & Technology
+CR,Costa Rica,1,Film & Animation
+CR,Costa Rica,2,Autos & Vehicles
+CR,Costa Rica,10,Music
+CR,Costa Rica,15,Pets & Animals
+CR,Costa Rica,17,Sports
+CR,Costa Rica,19,Travel & Events
+CR,Costa Rica,20,Gaming
+CR,Costa Rica,22,People & Blogs
+CR,Costa Rica,23,Comedy
+CR,Costa Rica,24,Entertainment
+CR,Costa Rica,25,News & Politics
+CR,Costa Rica,26,Howto & Style
+CR,Costa Rica,27,Education
+CR,Costa Rica,28,Science & Technology
+DO,Dominican Republic,1,Film & Animation
+DO,Dominican Republic,2,Autos & Vehicles
+DO,Dominican Republic,10,Music
+DO,Dominican Republic,15,Pets & Animals
+DO,Dominican Republic,17,Sports
+DO,Dominican Republic,19,Travel & Events
+DO,Dominican Republic,20,Gaming
+DO,Dominican Republic,22,People & Blogs
+DO,Dominican Republic,23,Comedy
+DO,Dominican Republic,24,Entertainment
+DO,Dominican Republic,25,News & Politics
+DO,Dominican Republic,26,Howto & Style
+DO,Dominican Republic,27,Education
+DO,Dominican Republic,28,Science & Technology
+EC,Ecuador,1,Film & Animation
+EC,Ecuador,2,Autos & Vehicles
+EC,Ecuador,10,Music
+EC,Ecuador,15,Pets & Animals
+EC,Ecuador,17,Sports
+EC,Ecuador,19,Travel & Events
+EC,Ecuador,20,Gaming
+EC,Ecuador,22,People & Blogs
+EC,Ecuador,23,Comedy
+EC,Ecuador,24,Entertainment
+EC,Ecuador,25,News & Politics
+EC,Ecuador,26,Howto & Style
+EC,Ecuador,27,Education
+EC,Ecuador,28,Science & Technology
+ES,Spain,1,Film & Animation
+ES,Spain,2,Autos & Vehicles
+ES,Spain,10,Music
+ES,Spain,15,Pets & Animals
+ES,Spain,17,Sports
+ES,Spain,19,Travel & Events
+ES,Spain,20,Gaming
+ES,Spain,22,People & Blogs
+ES,Spain,23,Comedy
+ES,Spain,24,Entertainment
+ES,Spain,25,News & Politics
+ES,Spain,26,Howto & Style
+ES,Spain,27,Education
+ES,Spain,28,Science & Technology
+GT,Guatemala,1,Film & Animation
+GT,Guatemala,2,Autos & Vehicles
+GT,Guatemala,10,Music
+GT,Guatemala,15,Pets & Animals
+GT,Guatemala,17,Sports
+GT,Guatemala,19,Travel & Events
+GT,Guatemala,20,Gaming
+GT,Guatemala,22,People & Blogs
+GT,Guatemala,23,Comedy
+GT,Guatemala,24,Entertainment
+GT,Guatemala,25,News & Politics
+GT,Guatemala,26,Howto & Style
+GT,Guatemala,27,Education
+GT,Guatemala,28,Science & Technology
+HN,Honduras,1,Film & Animation
+HN,Honduras,2,Autos & Vehicles
+HN,Honduras,10,Music
+HN,Honduras,15,Pets & Animals
+HN,Honduras,17,Sports
+HN,Honduras,19,Travel & Events
+HN,Honduras,20,Gaming
+HN,Honduras,22,People & Blogs
+HN,Honduras,23,Comedy
+HN,Honduras,24,Entertainment
+HN,Honduras,25,News & Politics
+HN,Honduras,26,Howto & Style
+HN,Honduras,27,Education
+HN,Honduras,28,Science & Technology
+MX,Mexico,1,Film & Animation
+MX,Mexico,2,Autos & Vehicles
+MX,Mexico,10,Music
+MX,Mexico,15,Pets & Animals
+MX,Mexico,17,Sports
+MX,Mexico,19,Travel & Events
+MX,Mexico,20,Gaming
+MX,Mexico,22,People & Blogs
+MX,Mexico,23,Comedy
+MX,Mexico,24,Entertainment
+MX,Mexico,25,News & Politics
+MX,Mexico,26,Howto & Style
+MX,Mexico,27,Education
+MX,Mexico,28,Science & Technology
+NI,Nicaragua,1,Film & Animation
+NI,Nicaragua,2,Autos & Vehicles
+NI,Nicaragua,10,Music
+NI,Nicaragua,15,Pets & Animals
+NI,Nicaragua,17,Sports
+NI,Nicaragua,19,Travel & Events
+NI,Nicaragua,20,Gaming
+NI,Nicaragua,22,People & Blogs
+NI,Nicaragua,23,Comedy
+NI,Nicaragua,24,Entertainment
+NI,Nicaragua,25,News & Politics
+NI,Nicaragua,26,Howto & Style
+NI,Nicaragua,27,Education
+NI,Nicaragua,28,Science & Technology
+PA,Panama,1,Film & Animation
+PA,Panama,2,Autos & Vehicles
+PA,Panama,10,Music
+PA,Panama,15,Pets & Animals
+PA,Panama,17,Sports
+PA,Panama,19,Travel & Events
+PA,Panama,20,Gaming
+PA,Panama,22,People & Blogs
+PA,Panama,23,Comedy
+PA,Panama,24,Entertainment
+PA,Panama,25,News & Politics
+PA,Panama,26,Howto & Style
+PA,Panama,27,Education
+PA,Panama,28,Science & Technology
+PE,Peru,1,Film & Animation
+PE,Peru,2,Autos & Vehicles
+PE,Peru,10,Music
+PE,Peru,15,Pets & Animals
+PE,Peru,17,Sports
+PE,Peru,19,Travel & Events
+PE,Peru,20,Gaming
+PE,Peru,22,People & Blogs
+PE,Peru,23,Comedy
+PE,Peru,24,Entertainment
+PE,Peru,25,News & Politics
+PE,Peru,26,Howto & Style
+PE,Peru,27,Education
+PE,Peru,28,Science & Technology
+PR,Puerto Rico,1,Film & Animation
+PR,Puerto Rico,2,Autos & Vehicles
+PR,Puerto Rico,10,Music
+PR,Puerto Rico,15,Pets & Animals
+PR,Puerto Rico,17,Sports
+PR,Puerto Rico,19,Travel & Events
+PR,Puerto Rico,20,Gaming
+PR,Puerto Rico,22,People & Blogs
+PR,Puerto Rico,23,Comedy
+PR,Puerto Rico,24,Entertainment
+PR,Puerto Rico,25,News & Politics
+PR,Puerto Rico,26,Howto & Style
+PR,Puerto Rico,27,Education
+PR,Puerto Rico,28,Science & Technology
+PY,Paraguay,1,Film & Animation
+PY,Paraguay,2,Autos & Vehicles
+PY,Paraguay,10,Music
+PY,Paraguay,15,Pets & Animals
+PY,Paraguay,17,Sports
+PY,Paraguay,19,Travel & Events
+PY,Paraguay,20,Gaming
+PY,Paraguay,22,People & Blogs
+PY,Paraguay,23,Comedy
+PY,Paraguay,24,Entertainment
+PY,Paraguay,25,News & Politics
+PY,Paraguay,26,Howto & Style
+PY,Paraguay,27,Education
+PY,Paraguay,28,Science & Technology
+SV,El Salvador,1,Film & Animation
+SV,El Salvador,2,Autos & Vehicles
+SV,El Salvador,10,Music
+SV,El Salvador,15,Pets & Animals
+SV,El Salvador,17,Sports
+SV,El Salvador,19,Travel & Events
+SV,El Salvador,20,Gaming
+SV,El Salvador,22,People & Blogs
+SV,El Salvador,23,Comedy
+SV,El Salvador,24,Entertainment
+SV,El Salvador,25,News & Politics
+SV,El Salvador,26,Howto & Style
+SV,El Salvador,27,Education
+SV,El Salvador,28,Science & Technology
+UY,Uruguay,1,Film & Animation
+UY,Uruguay,2,Autos & Vehicles
+UY,Uruguay,10,Music
+UY,Uruguay,15,Pets & Animals
+UY,Uruguay,17,Sports
+UY,Uruguay,19,Travel & Events
+UY,Uruguay,20,Gaming
+UY,Uruguay,22,People & Blogs
+UY,Uruguay,23,Comedy
+UY,Uruguay,24,Entertainment
+UY,Uruguay,25,News & Politics
+UY,Uruguay,26,Howto & Style
+UY,Uruguay,27,Education
+UY,Uruguay,28,Science & Technology
+VE,Venezuela,1,Film & Animation
+VE,Venezuela,2,Autos & Vehicles
+VE,Venezuela,10,Music
+VE,Venezuela,15,Pets & Animals
+VE,Venezuela,17,Sports
+VE,Venezuela,19,Travel & Events
+VE,Venezuela,20,Gaming
+VE,Venezuela,22,People & Blogs
+VE,Venezuela,23,Comedy
+VE,Venezuela,24,Entertainment
+VE,Venezuela,25,News & Politics
+VE,Venezuela,26,Howto & Style
+VE,Venezuela,27,Education
+VE,Venezuela,28,Science & Technology
+EE,Estonia,1,Film & Animation
+EE,Estonia,2,Autos & Vehicles
+EE,Estonia,10,Music
+EE,Estonia,15,Pets & Animals
+EE,Estonia,17,Sports
+EE,Estonia,19,Travel & Events
+EE,Estonia,20,Gaming
+EE,Estonia,22,People & Blogs
+EE,Estonia,23,Comedy
+EE,Estonia,24,Entertainment
+EE,Estonia,25,News & Politics
+EE,Estonia,26,Howto & Style
+EE,Estonia,27,Education
+EE,Estonia,28,Science & Technology
+FI,Finland,1,Film & Animation
+FI,Finland,2,Autos & Vehicles
+FI,Finland,10,Music
+FI,Finland,15,Pets & Animals
+FI,Finland,17,Sports
+FI,Finland,19,Travel & Events
+FI,Finland,20,Gaming
+FI,Finland,22,People & Blogs
+FI,Finland,23,Comedy
+FI,Finland,24,Entertainment
+FI,Finland,25,News & Politics
+FI,Finland,26,Howto & Style
+FI,Finland,27,Education
+FI,Finland,28,Science & Technology
+PH,Philippines,1,Film & Animation
+PH,Philippines,2,Autos & Vehicles
+PH,Philippines,10,Music
+PH,Philippines,15,Pets & Animals
+PH,Philippines,17,Sports
+PH,Philippines,19,Travel & Events
+PH,Philippines,20,Gaming
+PH,Philippines,22,People & Blogs
+PH,Philippines,23,Comedy
+PH,Philippines,24,Entertainment
+PH,Philippines,25,News & Politics
+PH,Philippines,26,Howto & Style
+PH,Philippines,27,Education
+PH,Philippines,28,Science & Technology
+FR,France,1,Film & Animation
+FR,France,2,Autos & Vehicles
+FR,France,10,Music
+FR,France,15,Pets & Animals
+FR,France,17,Sports
+FR,France,19,Travel & Events
+FR,France,20,Gaming
+FR,France,22,People & Blogs
+FR,France,23,Comedy
+FR,France,24,Entertainment
+FR,France,25,News & Politics
+FR,France,26,Howto & Style
+FR,France,27,Education
+FR,France,28,Science & Technology
+SN,Senegal,1,Film & Animation
+SN,Senegal,2,Autos & Vehicles
+SN,Senegal,10,Music
+SN,Senegal,15,Pets & Animals
+SN,Senegal,17,Sports
+SN,Senegal,19,Travel & Events
+SN,Senegal,20,Gaming
+SN,Senegal,22,People & Blogs
+SN,Senegal,23,Comedy
+SN,Senegal,24,Entertainment
+SN,Senegal,25,News & Politics
+SN,Senegal,26,Howto & Style
+SN,Senegal,27,Education
+SN,Senegal,28,Science & Technology
+HR,Croatia,1,Film & Animation
+HR,Croatia,2,Autos & Vehicles
+HR,Croatia,10,Music
+HR,Croatia,15,Pets & Animals
+HR,Croatia,17,Sports
+HR,Croatia,19,Travel & Events
+HR,Croatia,20,Gaming
+HR,Croatia,22,People & Blogs
+HR,Croatia,23,Comedy
+HR,Croatia,24,Entertainment
+HR,Croatia,25,News & Politics
+HR,Croatia,26,Howto & Style
+HR,Croatia,27,Education
+HR,Croatia,28,Science & Technology
+HU,Hungary,1,Film & Animation
+HU,Hungary,2,Autos & Vehicles
+HU,Hungary,10,Music
+HU,Hungary,15,Pets & Animals
+HU,Hungary,17,Sports
+HU,Hungary,19,Travel & Events
+HU,Hungary,20,Gaming
+HU,Hungary,22,People & Blogs
+HU,Hungary,23,Comedy
+HU,Hungary,24,Entertainment
+HU,Hungary,25,News & Politics
+HU,Hungary,26,Howto & Style
+HU,Hungary,27,Education
+HU,Hungary,28,Science & Technology
+ID,Indonesia,1,Film & Animation
+ID,Indonesia,2,Autos & Vehicles
+ID,Indonesia,10,Music
+ID,Indonesia,15,Pets & Animals
+ID,Indonesia,17,Sports
+ID,Indonesia,19,Travel & Events
+ID,Indonesia,20,Gaming
+ID,Indonesia,22,People & Blogs
+ID,Indonesia,23,Comedy
+ID,Indonesia,24,Entertainment
+ID,Indonesia,25,News & Politics
+ID,Indonesia,26,Howto & Style
+ID,Indonesia,27,Education
+ID,Indonesia,28,Science & Technology
+IS,Iceland,1,Film & Animation
+IS,Iceland,2,Autos & Vehicles
+IS,Iceland,10,Music
+IS,Iceland,15,Pets & Animals
+IS,Iceland,17,Sports
+IS,Iceland,19,Travel & Events
+IS,Iceland,20,Gaming
+IS,Iceland,22,People & Blogs
+IS,Iceland,23,Comedy
+IS,Iceland,24,Entertainment
+IS,Iceland,25,News & Politics
+IS,Iceland,26,Howto & Style
+IS,Iceland,27,Education
+IS,Iceland,28,Science & Technology
+IT,Italy,1,Film & Animation
+IT,Italy,2,Autos & Vehicles
+IT,Italy,10,Music
+IT,Italy,15,Pets & Animals
+IT,Italy,17,Sports
+IT,Italy,19,Travel & Events
+IT,Italy,20,Gaming
+IT,Italy,22,People & Blogs
+IT,Italy,23,Comedy
+IT,Italy,24,Entertainment
+IT,Italy,25,News & Politics
+IT,Italy,26,Howto & Style
+IT,Italy,27,Education
+IT,Italy,28,Science & Technology
+JP,Japan,1,Film & Animation
+JP,Japan,2,Autos & Vehicles
+JP,Japan,10,Music
+JP,Japan,15,Pets & Animals
+JP,Japan,17,Sports
+JP,Japan,19,Travel & Events
+JP,Japan,20,Gaming
+JP,Japan,22,People & Blogs
+JP,Japan,23,Comedy
+JP,Japan,24,Entertainment
+JP,Japan,25,News & Politics
+JP,Japan,26,Howto & Style
+JP,Japan,27,Education
+JP,Japan,28,Science & Technology
+GE,Georgia,1,Film & Animation
+GE,Georgia,2,Autos & Vehicles
+GE,Georgia,10,Music
+GE,Georgia,15,Pets & Animals
+GE,Georgia,17,Sports
+GE,Georgia,19,Travel & Events
+GE,Georgia,20,Gaming
+GE,Georgia,22,People & Blogs
+GE,Georgia,23,Comedy
+GE,Georgia,24,Entertainment
+GE,Georgia,25,News & Politics
+GE,Georgia,26,Howto & Style
+GE,Georgia,27,Education
+GE,Georgia,28,Science & Technology
+KZ,Kazakhstan,1,Film & Animation
+KZ,Kazakhstan,2,Autos & Vehicles
+KZ,Kazakhstan,10,Music
+KZ,Kazakhstan,15,Pets & Animals
+KZ,Kazakhstan,17,Sports
+KZ,Kazakhstan,19,Travel & Events
+KZ,Kazakhstan,20,Gaming
+KZ,Kazakhstan,22,People & Blogs
+KZ,Kazakhstan,23,Comedy
+KZ,Kazakhstan,24,Entertainment
+KZ,Kazakhstan,25,News & Politics
+KZ,Kazakhstan,26,Howto & Style
+KZ,Kazakhstan,27,Education
+KZ,Kazakhstan,28,Science & Technology
+KR,South Korea,1,Film & Animation
+KR,South Korea,2,Autos & Vehicles
+KR,South Korea,10,Music
+KR,South Korea,15,Pets & Animals
+KR,South Korea,17,Sports
+KR,South Korea,19,Travel & Events
+KR,South Korea,20,Gaming
+KR,South Korea,22,People & Blogs
+KR,South Korea,23,Comedy
+KR,South Korea,24,Entertainment
+KR,South Korea,25,News & Politics
+KR,South Korea,26,Howto & Style
+KR,South Korea,27,Education
+KR,South Korea,28,Science & Technology
+LU,Luxembourg,1,Film & Animation
+LU,Luxembourg,2,Autos & Vehicles
+LU,Luxembourg,10,Music
+LU,Luxembourg,15,Pets & Animals
+LU,Luxembourg,17,Sports
+LU,Luxembourg,19,Travel & Events
+LU,Luxembourg,20,Gaming
+LU,Luxembourg,22,People & Blogs
+LU,Luxembourg,23,Comedy
+LU,Luxembourg,24,Entertainment
+LU,Luxembourg,25,News & Politics
+LU,Luxembourg,26,Howto & Style
+LU,Luxembourg,27,Education
+LU,Luxembourg,28,Science & Technology
+LA,Laos,1,Film & Animation
+LA,Laos,2,Autos & Vehicles
+LA,Laos,10,Music
+LA,Laos,15,Pets & Animals
+LA,Laos,17,Sports
+LA,Laos,19,Travel & Events
+LA,Laos,20,Gaming
+LA,Laos,22,People & Blogs
+LA,Laos,23,Comedy
+LA,Laos,24,Entertainment
+LA,Laos,25,News & Politics
+LA,Laos,26,Howto & Style
+LA,Laos,27,Education
+LA,Laos,28,Science & Technology
+LT,Lithuania,1,Film & Animation
+LT,Lithuania,2,Autos & Vehicles
+LT,Lithuania,10,Music
+LT,Lithuania,15,Pets & Animals
+LT,Lithuania,17,Sports
+LT,Lithuania,19,Travel & Events
+LT,Lithuania,20,Gaming
+LT,Lithuania,22,People & Blogs
+LT,Lithuania,23,Comedy
+LT,Lithuania,24,Entertainment
+LT,Lithuania,25,News & Politics
+LT,Lithuania,26,Howto & Style
+LT,Lithuania,27,Education
+LT,Lithuania,28,Science & Technology
+LV,Latvia,1,Film & Animation
+LV,Latvia,2,Autos & Vehicles
+LV,Latvia,10,Music
+LV,Latvia,15,Pets & Animals
+LV,Latvia,17,Sports
+LV,Latvia,19,Travel & Events
+LV,Latvia,20,Gaming
+LV,Latvia,22,People & Blogs
+LV,Latvia,23,Comedy
+LV,Latvia,24,Entertainment
+LV,Latvia,25,News & Politics
+LV,Latvia,26,Howto & Style
+LV,Latvia,27,Education
+LV,Latvia,28,Science & Technology
+MK,North Macedonia,1,Film & Animation
+MK,North Macedonia,2,Autos & Vehicles
+MK,North Macedonia,10,Music
+MK,North Macedonia,15,Pets & Animals
+MK,North Macedonia,17,Sports
+MK,North Macedonia,19,Travel & Events
+MK,North Macedonia,20,Gaming
+MK,North Macedonia,22,People & Blogs
+MK,North Macedonia,23,Comedy
+MK,North Macedonia,24,Entertainment
+MK,North Macedonia,25,News & Politics
+MK,North Macedonia,26,Howto & Style
+MK,North Macedonia,27,Education
+MK,North Macedonia,28,Science & Technology
+MY,Malaysia,1,Film & Animation
+MY,Malaysia,2,Autos & Vehicles
+MY,Malaysia,10,Music
+MY,Malaysia,15,Pets & Animals
+MY,Malaysia,17,Sports
+MY,Malaysia,19,Travel & Events
+MY,Malaysia,20,Gaming
+MY,Malaysia,22,People & Blogs
+MY,Malaysia,23,Comedy
+MY,Malaysia,24,Entertainment
+MY,Malaysia,25,News & Politics
+MY,Malaysia,26,Howto & Style
+MY,Malaysia,27,Education
+MY,Malaysia,28,Science & Technology
+NO,Norway,1,Film & Animation
+NO,Norway,2,Autos & Vehicles
+NO,Norway,10,Music
+NO,Norway,15,Pets & Animals
+NO,Norway,17,Sports
+NO,Norway,19,Travel & Events
+NO,Norway,20,Gaming
+NO,Norway,22,People & Blogs
+NO,Norway,23,Comedy
+NO,Norway,24,Entertainment
+NO,Norway,25,News & Politics
+NO,Norway,26,Howto & Style
+NO,Norway,27,Education
+NO,Norway,28,Science & Technology
+NP,Nepal,1,Film & Animation
+NP,Nepal,2,Autos & Vehicles
+NP,Nepal,10,Music
+NP,Nepal,15,Pets & Animals
+NP,Nepal,17,Sports
+NP,Nepal,19,Travel & Events
+NP,Nepal,20,Gaming
+NP,Nepal,22,People & Blogs
+NP,Nepal,23,Comedy
+NP,Nepal,24,Entertainment
+NP,Nepal,25,News & Politics
+NP,Nepal,26,Howto & Style
+NP,Nepal,27,Education
+NP,Nepal,28,Science & Technology
+NL,Netherlands,1,Film & Animation
+NL,Netherlands,2,Autos & Vehicles
+NL,Netherlands,10,Music
+NL,Netherlands,15,Pets & Animals
+NL,Netherlands,17,Sports
+NL,Netherlands,19,Travel & Events
+NL,Netherlands,20,Gaming
+NL,Netherlands,22,People & Blogs
+NL,Netherlands,23,Comedy
+NL,Netherlands,24,Entertainment
+NL,Netherlands,25,News & Politics
+NL,Netherlands,26,Howto & Style
+NL,Netherlands,27,Education
+NL,Netherlands,28,Science & Technology
+PL,Poland,1,Film & Animation
+PL,Poland,2,Autos & Vehicles
+PL,Poland,10,Music
+PL,Poland,15,Pets & Animals
+PL,Poland,17,Sports
+PL,Poland,19,Travel & Events
+PL,Poland,20,Gaming
+PL,Poland,22,People & Blogs
+PL,Poland,23,Comedy
+PL,Poland,24,Entertainment
+PL,Poland,25,News & Politics
+PL,Poland,26,Howto & Style
+PL,Poland,27,Education
+PL,Poland,28,Science & Technology
+BR,Brazil,1,Film & Animation
+BR,Brazil,2,Autos & Vehicles
+BR,Brazil,10,Music
+BR,Brazil,15,Pets & Animals
+BR,Brazil,17,Sports
+BR,Brazil,19,Travel & Events
+BR,Brazil,20,Gaming
+BR,Brazil,22,People & Blogs
+BR,Brazil,23,Comedy
+BR,Brazil,24,Entertainment
+BR,Brazil,25,News & Politics
+BR,Brazil,26,Howto & Style
+BR,Brazil,27,Education
+BR,Brazil,28,Science & Technology
+PT,Portugal,1,Film & Animation
+PT,Portugal,2,Autos & Vehicles
+PT,Portugal,10,Music
+PT,Portugal,15,Pets & Animals
+PT,Portugal,17,Sports
+PT,Portugal,19,Travel & Events
+PT,Portugal,20,Gaming
+PT,Portugal,22,People & Blogs
+PT,Portugal,23,Comedy
+PT,Portugal,24,Entertainment
+PT,Portugal,25,News & Politics
+PT,Portugal,26,Howto & Style
+PT,Portugal,27,Education
+PT,Portugal,28,Science & Technology
+MD,Moldova,1,Film & Animation
+MD,Moldova,2,Autos & Vehicles
+MD,Moldova,10,Music
+MD,Moldova,15,Pets & Animals
+MD,Moldova,17,Sports
+MD,Moldova,19,Travel & Events
+MD,Moldova,20,Gaming
+MD,Moldova,22,People & Blogs
+MD,Moldova,23,Comedy
+MD,Moldova,24,Entertainment
+MD,Moldova,25,News & Politics
+MD,Moldova,26,Howto & Style
+MD,Moldova,27,Education
+MD,Moldova,28,Science & Technology
+RO,Romania,1,Film & Animation
+RO,Romania,2,Autos & Vehicles
+RO,Romania,10,Music
+RO,Romania,15,Pets & Animals
+RO,Romania,17,Sports
+RO,Romania,19,Travel & Events
+RO,Romania,20,Gaming
+RO,Romania,22,People & Blogs
+RO,Romania,23,Comedy
+RO,Romania,24,Entertainment
+RO,Romania,25,News & Politics
+RO,Romania,26,Howto & Style
+RO,Romania,27,Education
+RO,Romania,28,Science & Technology
+RU,Russia,1,Film & Animation
+RU,Russia,2,Autos & Vehicles
+RU,Russia,10,Music
+RU,Russia,15,Pets & Animals
+RU,Russia,17,Sports
+RU,Russia,19,Travel & Events
+RU,Russia,20,Gaming
+RU,Russia,22,People & Blogs
+RU,Russia,23,Comedy
+RU,Russia,24,Entertainment
+RU,Russia,25,News & Politics
+RU,Russia,26,Howto & Style
+RU,Russia,27,Education
+RU,Russia,28,Science & Technology
+LK,Sri Lanka,1,Film & Animation
+LK,Sri Lanka,2,Autos & Vehicles
+LK,Sri Lanka,10,Music
+LK,Sri Lanka,15,Pets & Animals
+LK,Sri Lanka,17,Sports
+LK,Sri Lanka,19,Travel & Events
+LK,Sri Lanka,20,Gaming
+LK,Sri Lanka,22,People & Blogs
+LK,Sri Lanka,23,Comedy
+LK,Sri Lanka,24,Entertainment
+LK,Sri Lanka,25,News & Politics
+LK,Sri Lanka,26,Howto & Style
+LK,Sri Lanka,27,Education
+LK,Sri Lanka,28,Science & Technology
+SK,Slovakia,1,Film & Animation
+SK,Slovakia,2,Autos & Vehicles
+SK,Slovakia,10,Music
+SK,Slovakia,15,Pets & Animals
+SK,Slovakia,17,Sports
+SK,Slovakia,19,Travel & Events
+SK,Slovakia,20,Gaming
+SK,Slovakia,22,People & Blogs
+SK,Slovakia,23,Comedy
+SK,Slovakia,24,Entertainment
+SK,Slovakia,25,News & Politics
+SK,Slovakia,26,Howto & Style
+SK,Slovakia,27,Education
+SK,Slovakia,28,Science & Technology
+SI,Slovenia,1,Film & Animation
+SI,Slovenia,2,Autos & Vehicles
+SI,Slovenia,10,Music
+SI,Slovenia,15,Pets & Animals
+SI,Slovenia,17,Sports
+SI,Slovenia,19,Travel & Events
+SI,Slovenia,20,Gaming
+SI,Slovenia,22,People & Blogs
+SI,Slovenia,23,Comedy
+SI,Slovenia,24,Entertainment
+SI,Slovenia,25,News & Politics
+SI,Slovenia,26,Howto & Style
+SI,Slovenia,27,Education
+SI,Slovenia,28,Science & Technology
+ME,Montenegro,1,Film & Animation
+ME,Montenegro,2,Autos & Vehicles
+ME,Montenegro,10,Music
+ME,Montenegro,15,Pets & Animals
+ME,Montenegro,17,Sports
+ME,Montenegro,19,Travel & Events
+ME,Montenegro,20,Gaming
+ME,Montenegro,22,People & Blogs
+ME,Montenegro,23,Comedy
+ME,Montenegro,24,Entertainment
+ME,Montenegro,25,News & Politics
+ME,Montenegro,26,Howto & Style
+ME,Montenegro,27,Education
+ME,Montenegro,28,Science & Technology
+RS,Serbia,1,Film & Animation
+RS,Serbia,2,Autos & Vehicles
+RS,Serbia,10,Music
+RS,Serbia,15,Pets & Animals
+RS,Serbia,17,Sports
+RS,Serbia,19,Travel & Events
+RS,Serbia,20,Gaming
+RS,Serbia,22,People & Blogs
+RS,Serbia,23,Comedy
+RS,Serbia,24,Entertainment
+RS,Serbia,25,News & Politics
+RS,Serbia,26,Howto & Style
+RS,Serbia,27,Education
+RS,Serbia,28,Science & Technology
+SE,Sweden,1,Film & Animation
+SE,Sweden,2,Autos & Vehicles
+SE,Sweden,10,Music
+SE,Sweden,15,Pets & Animals
+SE,Sweden,17,Sports
+SE,Sweden,19,Travel & Events
+SE,Sweden,20,Gaming
+SE,Sweden,22,People & Blogs
+SE,Sweden,23,Comedy
+SE,Sweden,24,Entertainment
+SE,Sweden,25,News & Politics
+SE,Sweden,26,Howto & Style
+SE,Sweden,27,Education
+SE,Sweden,28,Science & Technology
+TZ,Tanzania,1,Film & Animation
+TZ,Tanzania,2,Autos & Vehicles
+TZ,Tanzania,10,Music
+TZ,Tanzania,15,Pets & Animals
+TZ,Tanzania,17,Sports
+TZ,Tanzania,19,Travel & Events
+TZ,Tanzania,20,Gaming
+TZ,Tanzania,22,People & Blogs
+TZ,Tanzania,23,Comedy
+TZ,Tanzania,24,Entertainment
+TZ,Tanzania,25,News & Politics
+TZ,Tanzania,26,Howto & Style
+TZ,Tanzania,27,Education
+TZ,Tanzania,28,Science & Technology
+TH,Thailand,1,Film & Animation
+TH,Thailand,2,Autos & Vehicles
+TH,Thailand,10,Music
+TH,Thailand,15,Pets & Animals
+TH,Thailand,17,Sports
+TH,Thailand,19,Travel & Events
+TH,Thailand,20,Gaming
+TH,Thailand,22,People & Blogs
+TH,Thailand,23,Comedy
+TH,Thailand,24,Entertainment
+TH,Thailand,25,News & Politics
+TH,Thailand,26,Howto & Style
+TH,Thailand,27,Education
+TH,Thailand,28,Science & Technology
+TR,Turkey,1,Film & Animation
+TR,Turkey,2,Autos & Vehicles
+TR,Turkey,10,Music
+TR,Turkey,15,Pets & Animals
+TR,Turkey,17,Sports
+TR,Turkey,19,Travel & Events
+TR,Turkey,20,Gaming
+TR,Turkey,22,People & Blogs
+TR,Turkey,23,Comedy
+TR,Turkey,24,Entertainment
+TR,Turkey,25,News & Politics
+TR,Turkey,26,Howto & Style
+TR,Turkey,27,Education
+TR,Turkey,28,Science & Technology
+UA,Ukraine,1,Film & Animation
+UA,Ukraine,2,Autos & Vehicles
+UA,Ukraine,10,Music
+UA,Ukraine,15,Pets & Animals
+UA,Ukraine,17,Sports
+UA,Ukraine,19,Travel & Events
+UA,Ukraine,20,Gaming
+UA,Ukraine,22,People & Blogs
+UA,Ukraine,23,Comedy
+UA,Ukraine,24,Entertainment
+UA,Ukraine,25,News & Politics
+UA,Ukraine,26,Howto & Style
+UA,Ukraine,27,Education
+UA,Ukraine,28,Science & Technology
+PK,Pakistan,1,Film & Animation
+PK,Pakistan,2,Autos & Vehicles
+PK,Pakistan,10,Music
+PK,Pakistan,15,Pets & Animals
+PK,Pakistan,17,Sports
+PK,Pakistan,19,Travel & Events
+PK,Pakistan,20,Gaming
+PK,Pakistan,22,People & Blogs
+PK,Pakistan,23,Comedy
+PK,Pakistan,24,Entertainment
+PK,Pakistan,25,News & Politics
+PK,Pakistan,26,Howto & Style
+PK,Pakistan,27,Education
+PK,Pakistan,28,Science & Technology
+VN,Vietnam,1,Film & Animation
+VN,Vietnam,2,Autos & Vehicles
+VN,Vietnam,10,Music
+VN,Vietnam,15,Pets & Animals
+VN,Vietnam,17,Sports
+VN,Vietnam,19,Travel & Events
+VN,Vietnam,20,Gaming
+VN,Vietnam,22,People & Blogs
+VN,Vietnam,23,Comedy
+VN,Vietnam,24,Entertainment
+VN,Vietnam,25,News & Politics
+VN,Vietnam,26,Howto & Style
+VN,Vietnam,27,Education
+VN,Vietnam,28,Science & Technology
+HK,Hong Kong,1,Film & Animation
+HK,Hong Kong,2,Autos & Vehicles
+HK,Hong Kong,10,Music
+HK,Hong Kong,15,Pets & Animals
+HK,Hong Kong,17,Sports
+HK,Hong Kong,19,Travel & Events
+HK,Hong Kong,20,Gaming
+HK,Hong Kong,22,People & Blogs
+HK,Hong Kong,23,Comedy
+HK,Hong Kong,24,Entertainment
+HK,Hong Kong,25,News & Politics
+HK,Hong Kong,26,Howto & Style
+HK,Hong Kong,27,Education
+HK,Hong Kong,28,Science & Technology
+TW,Taiwan,1,Film & Animation
+TW,Taiwan,2,Autos & Vehicles
+TW,Taiwan,10,Music
+TW,Taiwan,15,Pets & Animals
+TW,Taiwan,17,Sports
+TW,Taiwan,19,Travel & Events
+TW,Taiwan,20,Gaming
+TW,Taiwan,22,People & Blogs
+TW,Taiwan,23,Comedy
+TW,Taiwan,24,Entertainment
+TW,Taiwan,25,News & Politics
+TW,Taiwan,26,Howto & Style
+TW,Taiwan,27,Education
+TW,Taiwan,28,Science & Technology
+CY,Cyprus,1,Film & Animation
+CY,Cyprus,2,Autos & Vehicles
+CY,Cyprus,10,Music
+CY,Cyprus,15,Pets & Animals
+CY,Cyprus,17,Sports
+CY,Cyprus,19,Travel & Events
+CY,Cyprus,20,Gaming
+CY,Cyprus,22,People & Blogs
+CY,Cyprus,23,Comedy
+CY,Cyprus,24,Entertainment
+CY,Cyprus,25,News & Politics
+CY,Cyprus,26,Howto & Style
+CY,Cyprus,27,Education
+CY,Cyprus,28,Science & Technology
+KH,Cambodia,1,Film & Animation
+KH,Cambodia,2,Autos & Vehicles
+KH,Cambodia,10,Music
+KH,Cambodia,15,Pets & Animals
+KH,Cambodia,17,Sports
+KH,Cambodia,19,Travel & Events
+KH,Cambodia,20,Gaming
+KH,Cambodia,22,People & Blogs
+KH,Cambodia,23,Comedy
+KH,Cambodia,24,Entertainment
+KH,Cambodia,25,News & Politics
+KH,Cambodia,26,Howto & Style
+KH,Cambodia,27,Education
+KH,Cambodia,28,Science & Technology
+LI,Liechtenstein,1,Film & Animation
+LI,Liechtenstein,2,Autos & Vehicles
+LI,Liechtenstein,10,Music
+LI,Liechtenstein,15,Pets & Animals
+LI,Liechtenstein,17,Sports
+LI,Liechtenstein,19,Travel & Events
+LI,Liechtenstein,20,Gaming
+LI,Liechtenstein,22,People & Blogs
+LI,Liechtenstein,23,Comedy
+LI,Liechtenstein,24,Entertainment
+LI,Liechtenstein,25,News & Politics
+LI,Liechtenstein,26,Howto & Style
+LI,Liechtenstein,27,Education
+LI,Liechtenstein,28,Science & Technology
+PG,Papua New Guinea,1,Film & Animation
+PG,Papua New Guinea,2,Autos & Vehicles
+PG,Papua New Guinea,10,Music
+PG,Papua New Guinea,15,Pets & Animals
+PG,Papua New Guinea,17,Sports
+PG,Papua New Guinea,19,Travel & Events
+PG,Papua New Guinea,20,Gaming
+PG,Papua New Guinea,22,People & Blogs
+PG,Papua New Guinea,23,Comedy
+PG,Papua New Guinea,24,Entertainment
+PG,Papua New Guinea,25,News & Politics
+PG,Papua New Guinea,26,Howto & Style
+PG,Papua New Guinea,27,Education
+PG,Papua New Guinea,28,Science & Technology

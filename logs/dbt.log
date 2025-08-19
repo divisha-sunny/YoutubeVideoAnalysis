@@ -1,0 +1,107 @@
+[0m20:26:44.456717 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103b33a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104db99a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104db97c0>]}
+
+
+============================== 20:26:44.460742 | 2a25afbe-78b4-4509-94da-37b08d34f871 ==============================
+[0m20:26:44.460742 [info ] [MainThread]: Running with dbt=1.10.8
+[0m20:26:44.461090 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'profiles_dir': '/Users/divya21raj/.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt init youtubeAnalysis', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:26:44.471849 [debug] [MainThread]: Starter project path: /Users/divya21raj/Documents/Sunny_Documents/Projects/youtubeDataAnalysis/venv/lib/python3.9/site-packages/dbt/include/starter_project
+[0m20:26:44.477832 [info ] [MainThread]: 
+Your new dbt project "youtubeAnalysis" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m20:26:44.478089 [info ] [MainThread]: Setting up your profile.
+[0m20:57:27.110986 [info ] [MainThread]: Profile youtubeAnalysis written to /Users/divya21raj/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m20:57:27.220747 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 1842.8401, "process_in_blocks": "0", "process_kernel_time": 0.54467, "process_mem_max_rss": "319012864", "process_out_blocks": "0", "process_user_time": 1.993592}
+[0m20:57:27.226871 [debug] [MainThread]: Command `dbt init` succeeded at 20:57:27.225249 after 1842.85 seconds
+[0m20:57:27.235429 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x103b33a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104d90940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104e54b50>]}
+[0m20:57:27.238504 [debug] [MainThread]: Flushing usage events
+[0m20:57:27.788544 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:57:43.089548 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10420bb20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106abaa00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106aba820>]}
+
+
+============================== 20:57:43.093650 | fcf1291b-3393-4bcd-9d99-332ec0b4a93f ==============================
+[0m20:57:43.093650 [info ] [MainThread]: Running with dbt=1.10.8
+[0m20:57:43.094014 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/Users/divya21raj/.dbt', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m20:57:43.103261 [info ] [MainThread]: dbt version: 1.10.8
+[0m20:57:43.103600 [info ] [MainThread]: python version: 3.9.7
+[0m20:57:43.103845 [info ] [MainThread]: python path: /Users/divya21raj/Documents/Sunny_Documents/Projects/youtubeDataAnalysis/venv/bin/python
+[0m20:57:43.104034 [info ] [MainThread]: os info: macOS-14.4.1-arm64-arm-64bit
+[0m20:57:45.141699 [info ] [MainThread]: Using profiles dir at /Users/divya21raj/.dbt
+[0m20:57:45.142109 [info ] [MainThread]: Using profiles.yml file at /Users/divya21raj/.dbt/profiles.yml
+[0m20:57:45.142340 [info ] [MainThread]: Using dbt_project.yml file at /Users/divya21raj/Documents/Sunny_Documents/Projects/youtubeDataAnalysis/dbt_project.yml
+[0m20:57:45.142539 [info ] [MainThread]: adapter type: bigquery
+[0m20:57:45.142717 [info ] [MainThread]: adapter version: 1.10.1
+[0m20:57:45.142899 [info ] [MainThread]: Configuration:
+[0m20:57:45.143067 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m20:57:45.143230 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m20:57:45.143395 [info ] [MainThread]: Required dependencies:
+[0m20:57:45.143593 [debug] [MainThread]: Executing "git --help"
+[0m20:57:45.180171 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m20:57:45.180846 [debug] [MainThread]: STDERR: "b''"
+[0m20:57:45.181109 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m20:57:45.181338 [info ] [MainThread]: Connection:
+[0m20:57:45.181621 [info ] [MainThread]:   method: service-account
+[0m20:57:45.181793 [info ] [MainThread]:   database: third-flare-425403-c0
+[0m20:57:45.182046 [info ] [MainThread]:   execution_project: third-flare-425403-c0
+[0m20:57:45.182288 [info ] [MainThread]:   schema: youtubeAnalysis
+[0m20:57:45.182470 [info ] [MainThread]:   location: US
+[0m20:57:45.182645 [info ] [MainThread]:   priority: interactive
+[0m20:57:45.182817 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m20:57:45.182981 [info ] [MainThread]:   impersonate_service_account: None
+[0m20:57:45.183146 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m20:57:45.183309 [info ] [MainThread]:   job_retries: 1
+[0m20:57:45.183472 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m20:57:45.183633 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m20:57:45.183793 [info ] [MainThread]:   timeout_seconds: 300
+[0m20:57:45.183953 [info ] [MainThread]:   client_id: None
+[0m20:57:45.184112 [info ] [MainThread]:   token_uri: None
+[0m20:57:45.184272 [info ] [MainThread]:   compute_region: None
+[0m20:57:45.184430 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m20:57:45.184587 [info ] [MainThread]:   gcs_bucket: None
+[0m20:57:45.184759 [info ] [MainThread]:   dataproc_batch: None
+[0m20:57:45.185235 [info ] [MainThread]: Registered adapter: bigquery=1.10.1
+[0m20:57:45.391976 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m20:57:45.392394 [debug] [MainThread]: On debug: select 1 as id
+[0m20:57:45.392636 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m20:57:46.425183 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=third-flare-425403-c0&j=bq:US:c53ae77e-ca9f-46e4-8015-06d98e6b2194&page=queryresults
+[0m20:57:47.130767 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m20:57:47.131242 [info ] [MainThread]: [31m1 check failed:[0m
+[0m20:57:47.131465 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </Users/divya21raj/Documents/Sunny_Documents/Projects/youtubeDataAnalysis/dbt_project.yml> not found
+
+[0m20:57:47.134297 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 4.0949335, "process_in_blocks": "0", "process_kernel_time": 0.357982, "process_mem_max_rss": "331202560", "process_out_blocks": "0", "process_user_time": 1.913477}
+[0m20:57:47.134714 [debug] [MainThread]: Command `dbt debug` failed at 20:57:47.134622 after 4.10 seconds
+[0m20:57:47.134990 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m20:57:47.135281 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10420bb20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b68e50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106b68b20>]}
+[0m20:57:47.135597 [debug] [MainThread]: Flushing usage events
+[0m20:57:47.508628 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m19:50:42.182873 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1048f7100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106437940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106437760>]}
+
+
+============================== 19:50:42.185757 | 45b931b1-a3c6-4f9f-9a53-42909804f6a1 ==============================
+[0m19:50:42.185757 [info ] [MainThread]: Running with dbt=1.10.8
+[0m19:50:42.186114 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/divya21raj/.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt run', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:50:42.186591 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/divya21raj/Documents/Sunny_Documents/Projects/youtubeDataAnalysis/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m19:50:42.188822 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.055197958, "process_in_blocks": "0", "process_kernel_time": 0.120008, "process_mem_max_rss": "103251968", "process_out_blocks": "0", "process_user_time": 0.773269}
+[0m19:50:42.189075 [debug] [MainThread]: Command `dbt run` failed at 19:50:42.189019 after 0.06 seconds
+[0m19:50:42.189274 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1048f7100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x106437100>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1064371c0>]}
+[0m19:50:42.189474 [debug] [MainThread]: Flushing usage events
+[0m19:50:42.620684 [debug] [MainThread]: An error was encountered while trying to flush usage events

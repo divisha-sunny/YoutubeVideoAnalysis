@@ -1,0 +1,39 @@
+
+
+  create or replace view `third-flare-425403-c0`.`youtubeDataAnalysis`.`video_stats_daily`
+  OPTIONS()
+  as SELECT
+    video_id,
+    publishedAt,
+    channel_Id,
+    video_title,
+    channel_Title,
+    categoryId,
+    category_title,
+    duration_sec,
+    dimension,
+    definition,
+    caption,
+    licensedContent,
+    madeForKids,
+    trending_date,
+    MAX(viewCount) AS viewCount,
+    MAX(likeCount) AS likeCount,
+    MAX(commentCount) AS commentCount
+FROM `third-flare-425403-c0`.`youtubeDataAnalysis`.`combined_daily`
+GROUP BY
+    video_id,
+    publishedAt,
+    channel_Id,
+    video_title,
+    channel_Title,
+    categoryId,
+    duration_sec,
+    dimension,
+    definition,
+    caption,
+    licensedContent,
+    madeForKids,
+    category_title,
+    trending_date;
+

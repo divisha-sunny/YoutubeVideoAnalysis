@@ -9,7 +9,7 @@ import time
 # -----------------------------
 # 1. Set up YouTube client
 # -----------------------------
-API_KEY = "AIzaSyCDKGjLfpNg0IPNjwisN13BQXKVWqe2ETY"
+API_KEY = "Your Key"
 youtube = build("youtube", "v3", developerKey=API_KEY)
 
 # -----------------------------
